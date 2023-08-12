@@ -1,6 +1,12 @@
-* {
+:root {
+    font-size: 16px;
+    font-family: Poppins,sans-serif;
+
+  }
+  * {
     box-sizing: border-box;
   }
+
 html {
   scroll-behavior: smooth;
 }
@@ -11,7 +17,7 @@ h4,p,a,img,strong,b,u,i,ol,ul,li,article {
   padding: 0;
   border: 0;
 }
-article,footer,header,menu,nav,section {
+article,footer,header,menu,section {
   display: block;
 }
 body {
